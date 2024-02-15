@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final String operacao = "";
         Calculadora calculo = new Calculadora();
 
         etvnum1 = findViewById(R.id.etvPrimeiroNumero);
